@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="BaseScene" extends="Scene"> 
+
+    <script type="text/brightscript" uri="./BaseScene.brs" />
+	
+    <children>
+        <LayoutGroup
+            translation = "[ 0, 0 ]"
+            itemSpacings = "[ 0 ]"
+        >
+            <Label 
+                text="Test Label" />
+
+            <RowList 
+                id = "exampleRowList1" 
+                translation = "[ 0, 0 ]" 
+                itemComponentName = "RowListItem" 
+                numRows = "4" 
+                itemSize = "[ 1608, 308 ]" 
+                rowItemSize = "[ [536, 308] ]" 
+                itemSpacing = "[ 0, 0 ]" 
+                drawFocusFeedback = "false" 
+                vertFocusAnimationStyle = "fixedFocusWrap" 
+                rowFocusAnimationStyle = "fixedFocusWrap" />
+        </LayoutGroup>
+
+        <RowList 
+            id = "exampleRowList2"
+            width = "1608"
+            height = "308"
+            translation = "[ 0, 400 ]" 
+            itemComponentName = "RowListItem" 
+            numRows = "4" 
+            itemSize = "[ 1608, 308 ]" 
+            rowItemSize = "[ [536, 308] ]" 
+            itemSpacing = "[ 0, 0 ]" 
+            showRowLabel = "[ true ]" 
+            drawFocusFeedback = "false" 
+            vertFocusAnimationStyle = "fixedFocusWrap" 
+            rowFocusAnimationStyle = "fixedFocusWrap" />
+    </children>
+    
+</component>
